@@ -1,0 +1,23 @@
+{
+    "name": "bosun/composer_repo",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bruce1237/composerTest.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bosun\\ComposerRepo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bo.sun",
+            "email": "bo.sun@experienceengine.com"
+        }
+    ],
+    "require": {
+        "bosun/composer_new-lib":"2.0"
+    }
+}
